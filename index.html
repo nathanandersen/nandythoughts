@@ -2,12 +2,63 @@
 <html>
 <head>
   <style>
+
+
   .blog {
     outline: 0.5px solid black;
   }
 
   .firetakes {
-    background-image: url('images/fire-background.png')
+    background-image: url('images/fire-background.png');
+  }
+
+  .hottake:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .comment {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+  }
+
+  @-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+  }
+
+  .driving-range {
+    color: #ffffff;
+    background-color: #008000;
+    margin: 0px;
+    cursor: pointer;
+  }
+
+  canvas {
+    display: block;
+    image-rendering: pixelated;
   }
   </style>
 </head>
@@ -23,131 +74,175 @@
     <img src="https://hitwebcounter.com/counter/counter.php?page=7186900&style=0003&nbdigits=6&type=page&initCount=0" title="Free-Counter" Alt="counter"   border="0" >
   </a>
 
-  <h3>Comment section down below.</h3>
-  <h2>UNLIMITED LIKES</h2>
-
-
-  <div class='firetakes'>
-  <h1>Should I play cavity backs?</h1>
-  have u heard of tennis
-
-  <h1>Blackjack?</h1>
-  might as well just light your money on fire
-
-  <h1>Why do some tour players hit it better than others</h1>
-  <p>  its all about efficiency</p>
-
-  <p>don't be a slapper like frankie molinari</p>
-    <p>frankie plays tennis on a golf course</p>
-
-  <h1>wings ranked</h1>
-  <p><img src='images/construction.png' alt='under construction' width='20%'/></p>
-
-also buffalo
-
-  <h1>Golfers more dominant than Phil Mickelson</h1>
+  <p>
   <ul>
-    <li>Ernie Els</li>
-    <li>Vijay Singh</li>
-    <li>Jordan Spieth</li>
-    <li>Brooks Koepka</li>
+    <li>Table of contents</li>
+    <li><a href='#firetakes'>fire takes</a></li>
+    <li><a href='#blog'>blog</a></li>
+    <li><a href='#HCB_comment_box'>comments</a></li>
+    <li>we have unlimietd likes</li>
+    <li><a href='#driving-range'>we talkin bout practice</a></li>
   </ul>
+</p>
 
-  <h1>best courses</h1>
-  rtj trail all time best investment
+  <div id='firetakes' class='firetakes'>
+    <div class='hottake'>
+      <h1>Should I play cavity backs?</h1>
+      have u heard of tennis
+    </div>
 
-  <h1>Course strategy advice</h1>
-  get scooshie and hit the ball really really far<br/>
+    <div class='hottake'>
+      <h1>Blackjack?</h1>
+      might as well just light your money on fire
+    </div>
 
-  have u tried hitting it closer to the hole?
+    <div class='hottake'>
+      <h1>Why do some tour players hit it better than others</h1>
+      <p>  its all about efficiency</p>
 
-  <h1>Jack Nicklaus</h1>
-  its a shame he didnt have an optimal swing, he could have had 40 majors
+      <p>don't be a slapper like frankie molinari</p>
+      <p>frankie plays tennis on a golf course</p>
+    </div>
 
-  <h1>practice aids</h1>
-  kj choi hammer drill<br/>
-  zero-axis hammer potty putter<br/>
+    <div class='hottake'>
+      <h1>wings ranked</h1>
+      <p><img src='images/construction.png' alt='under construction' width='20%'/></p>
+
+      also buffalo
+    </div>
 
 
-  <h1>Cypress Point</h1>
-  where does it point to?
+    <div class='hottake'>
+      <h1>Golfers more dominant than Phil Mickelson</h1>
+      <ul>
+        <li>Ernie Els</li>
+        <li>Vijay Singh</li>
+        <li>Jordan Spieth</li>
+        <li>Brooks Koepka</li>
+      </ul>
+    </div>
 
-  <h1>Swing Tips</h1>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9NaRFbpY1SI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <h1>Equipment Buying Guide</h1>
-  Miura.com<br/>
+    <div class='hottake'>
+      <h1>best courses</h1>
+      rtj trail all time best investment
+    </div>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/pXHXlI9yU0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class='hottake'>
+      <h1>Course strategy advice</h1>
+      get scooshie and hit the ball really really far<br/>
 
-  <h1>Skechers</h1>
-  what can i say they work
-</div>
+      have u tried hitting it closer to the hole?
+    </div>
 
-  <h1> Blog </h1>
-  <div class='blog'>
-    <p>11:00 AM, Monday, Jan 27, 2020.</p>
-    Hey-o, everyone out there in CyberGolfLand. It's good old Nandy coming at you again, from my perch up here.
-    Just a few observations on the world around me.<br/><br/>
+    <div class='hottake'>
+      <h1>Jack Nicklaus</h1>
+      its a shame he didnt have an optimal swing, he could have had 40 majors
+    </div>
 
-    What do you guys think we should do about the golf ball?
-    Write your thoughts below or email me at jaymonahan@pgatour.com
+
+    <div class='hottake'>
+      <h1>practice aids</h1>
+      kj choi hammer drill<br/>
+      zero-axis hammer potty putter<br/>
+    </div>
+    <div class='hottake'>
+      <h1>Cypress Point</h1>
+      where does it point to?
+
+    </div>
+    <div class='hottake'>
+      <h1>Swing Tips</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9NaRFbpY1SI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <div class='hottake'>
+      <h1>Equipment Buying Guide</h1>
+      Miura.com<br/>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pXHXlI9yU0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <div class='hottake'>
+      <h1>Skechers</h1>
+      what can i say they work
+    </div>
   </div>
 
-  <div class='blog'>
-    <p>12:15 PM, Monday, Jan 27, 2020.</p>
-    It's really interesting that Marc Leishman won with negative SG: OTT.
-  </div>
+  <div id='blog' class='allblogs'>
+    <h1> Blog </h1>
+    <div class='blog'>
+      <p>11:00 AM, Monday, Jan 27, 2020.</p>
+      Hey-o, everyone out there in CyberGolfLand. It's good old Nandy coming at you again, from my perch up here.
+      Just a few observations on the world around me.<br/><br/>
 
-  <div class='blog'>
-    <p>12:20 PM, Monday, Jan 27, 2020.</p>
-    What do I have in the fridge for lunch today?
-  </div>
+      What do you guys think we should do about the golf ball?
+      Write your thoughts below or email me at jaymonahan@pgatour.com
+    </div>
 
-  <div class='blog'>
-    <p>12:37 PM, Monday, Jan 27, 2020.</p>
-    EAL has so much potential to be great for golf, if only he could get out of his own way.
-  </div>
+    <div class='blog'>
+      <p>12:15 PM, Monday, Jan 27, 2020.</p>
+      It's really interesting that Marc Leishman won with negative SG: OTT.
+    </div>
 
-  <div class='blog'>
-    <p>12:41 PM, Monday. Jan 27, 2020.</p>
-    More putters should be able to clamp the ball and pick it up.
-    <p><img src='images/westwood.png' alt='Lee Westwood' width='20%'/></p>
-  </div>
+    <div class='blog'>
+      <p>12:20 PM, Monday, Jan 27, 2020.</p>
+      What do I have in the fridge for lunch today?
+    </div>
 
-  <div class='blog'>
-    <p>1:38 PM, Monday. Jan 27, 2020.</p>
-    Rory's 5-wood out of the bunker yesterday was a pretty insane shot.
-  </div>
+    <div class='blog'>
+      <p>12:37 PM, Monday, Jan 27, 2020.</p>
+      EAL has so much potential to be great for golf, if only he could get out of his own way.
+    </div>
 
-  <div class='blog'>
-    <p>1:48 PM, Monday. Jan 27, 2020.</p>
-    It's awesome to see all these celebrities coming by. The authentication system
-    in this guest book is really comprehensive, might as well have blue check
-    marks next to their name.
-  </div>
+    <div class='blog'>
+      <p>12:41 PM, Monday. Jan 27, 2020.</p>
+      More putters should be able to clamp the ball and pick it up.
+      <p><img src='images/westwood.png' alt='Lee Westwood' width='20%'/></p>
+    </div>
 
-  <div class='blog'>
-    <p> 3:10 PM, Monday, Jan 27, 2020.</p>
-    So do you guys (guise) like the site? Vote here
-    <ul>
-      <li>Yes</li>
-      <li>No</li>
-      <li>All of the above</li>
-      <li>Other</li>
-    </ul>
-  </div>
+    <div class='blog'>
+      <p>1:38 PM, Monday. Jan 27, 2020.</p>
+      Rory's 5-wood out of the bunker yesterday was a pretty insane shot.
+    </div>
 
-  <div class='blog'>
-    <p> 3:38 PM, Monday, Jan 27, 2020.</p>
-    Hearing rumors of a 1250 page-view giveaway!
-  </div>
+    <div class='blog'>
+      <p>1:48 PM, Monday. Jan 27, 2020.</p>
+      It's awesome to see all these celebrities coming by. The authentication system
+      in this guest book is really comprehensive, might as well have blue check
+      marks next to their name.
+    </div>
 
-  <div class='blog'>
-    <p> 12:28 PM, Tuesday, Jan 28, 2020.</p>
-    GOoooooddddd mornrigninginggggg Vietanmam!!!!!!
-  </div>
+    <div class='blog'>
+      <p> 3:10 PM, Monday, Jan 27, 2020.</p>
+      So do you guys (guise) like the site? Vote here
+      <ul>
+        <li>Yes</li>
+        <li>No</li>
+        <li>All of the above</li>
+        <li>Other</li>
+      </ul>
+    </div>
 
+    <div class='blog'>
+      <p> 3:38 PM, Monday, Jan 27, 2020.</p>
+      Hearing rumors of a 1250 page-view giveaway!
+    </div>
+
+    <div class='blog'>
+      <p> 12:28 PM, Tuesday, Jan 28, 2020.</p>
+      GOoooooddddd mornrigninginggggg Vietanmam!!!!!!
+    </div>
+    <div class='blog'>
+      <p> 9:00 AM, Friday, Jan 31, 2020.</p>
+      It took me less time to build this website than it does for <br/>
+      JB Holmes to play a round of golf.
+      <br/>
+      <br/>
+      This weekend: Vegas, baby!
+    </div>
+
+  </div>
 
   <!-- begin wwww.htmlcommentbox.com -->
   <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
@@ -155,7 +250,163 @@ also buffalo
   <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24RCI%2FIjVny0h1rfBTluj4L%2F"+"&opts=16862&num=10&ts=1580147863365");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
   <!-- end www.htmlcommentbox.com -->
 
+  <h1>Let's go launch 'em</h1>
+  <div id='driving-range' class='driving-range'>
+    <script>
+    var info = document.createElement( 'div' );
+    info.style.position = 'absolute';
+    info.style.top = '10px';
+    info.style.width = '100%';
+    info.style.fontFamily = 'Monospace';
+    info.style.textAlign = 'center';
+    info.innerHTML = 'click to practice!';
+    document.body.appendChild( info );
 
-</body>
+    var canvas = document.createElement( 'canvas' );
+    canvas.style.position = 'absolute';
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    document.body.appendChild( canvas );
 
-</html>
+    var context = canvas.getContext( '2d' );
+
+    var id = 1;
+
+    var cwidth = 32, cwidthhalf = cwidth / 2;
+    var cheight = 32, cheighthalf = cheight / 2;
+
+    var range = document.createElement( 'img' );
+    range.onload = function(){
+      rangex = 0
+      rangey = canvas.height - this.height
+      context.drawImage(range,rangex,rangey) }
+      range.src = "images/range.png"
+
+      var particles = [];
+
+      var Particle = function ( id, x, y, sx, sy ) {
+
+        if ( sx === 0 ) sx = 2;
+
+        var cx = ( id % 4 ) * cwidth;
+        var cy = Math.floor( id / 4 ) * cheight;
+
+        this.update = function () {
+
+          x += sx;
+          y += sy;
+
+          if ( x < ( - cwidthhalf ) || x > ( canvas.width + cwidthhalf ) ) {
+
+            var index = particles.indexOf( this );
+            particles.splice( index, 1 );
+
+            return false;
+
+          }
+
+          if ( y > canvas.height - cheighthalf ) {
+
+            y = canvas.height - cheighthalf;
+            sy = - sy * 0.85;
+
+          }
+
+          sy += 0.98;
+
+          context.drawImage( image, cx, cy, cwidth, cheight, Math.floor( x - cwidthhalf ), Math.floor( y - cheighthalf ), cwidth, cheight	);
+
+          return true;
+
+        }
+
+      }
+
+      var image = document.createElement( 'img' );
+      image.src = "images/golf32.png"
+
+      var throwCard = function ( x, y ) {
+
+        id > 0 ? id -- : id = 1;
+
+        //var particle = new Particle( id, x, y, Math.floor( Math.random() * 12 - 3 ) * 2, - Math.random() * 16 );
+
+        var particle = new Particle( id, x, y, 15 + Math.random() * 15, -15 - Math.random() * 15 );
+        particles.push( particle );
+
+      }
+
+      canvas.addEventListener( 'mousedown', function ( event ) {
+
+        event.preventDefault();
+
+        canvas.addEventListener( 'mousemove', onMouseMove, false );
+
+      }, false );
+
+      canvas.addEventListener( 'mouseup', function ( event ) {
+
+        event.preventDefault();
+
+        throwCard( event.clientX, event.clientY );
+
+        canvas.removeEventListener( 'mousemove', onMouseMove, false );
+
+      }, false );
+
+      function onMouseMove( event ) {
+
+        event.preventDefault();
+
+        throwCard( event.clientX, event.clientY );
+
+      }
+
+      canvas.addEventListener( 'touchstart', function ( event ) {
+
+        event.preventDefault();
+
+        for ( var i = 0; i < event.changedTouches.length; i ++ ) {
+
+          throwCard( event.changedTouches[ 0 ].pageX, event.changedTouches[ 0 ].pageY );
+
+        }
+
+      }, false );
+
+      canvas.addEventListener( 'touchmove', function ( event ) {
+
+        event.preventDefault();
+
+        for ( var i = 0; i < event.touches.length; i ++ ) {
+
+          throwCard( event.touches[ i ].pageX, event.touches[ i ].pageY );
+
+        }
+
+      }, false );
+
+      function animate() {
+        var i = 0, l = particles.length;
+
+        while ( i < l ) {
+
+          particles[ i ].update() ? i ++ : l --;
+
+        }
+
+        requestAnimationFrame( animate );
+
+      }
+      requestAnimationFrame( animate );
+
+      </script>
+      <div style="position: absolute; top: 10px; width: 100%; font-family: monospace; text-align: center;">click to practice!</div>
+      <canvas width="1920" height="969" style="position: absolute;">
+      </canvas>
+    </div>
+
+
+  </body>
+
+  </html>
